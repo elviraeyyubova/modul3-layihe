@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.headline{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 70px;
+    background: #F5F5F6
+}
+.element{
+    display: flex;
+    flex-direction: row;
+}
+.banka{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+}
+li{
+    padding-right: 10px;
+    margin-left: 80px;
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+.firstchild{
+    color: #000;
+}
+.btn {
+    width: 70px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 12px;
+    margin-left: 100px;
+    color: #000000;
+}
+#main .main {
+    padding-top: 56px;
+    padding-left: 253px;
+    padding-right: 258px;
+    background: #fff;
+}
+#main .main h1 {
+    width: 590px;
+    height: 40px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+#main section {
+    display: flex;
+    margin-top: 33px;
+}
+#main .left-section, .right-section {
+    width: 260px;
+    height: 180px;
+}
+#main .left-section {
+    margin-right: 124px;
+    margin-left: 100px;
+}
+#main .head {
+    width: 120px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+}
+#main .monetary {
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+#main .monetary button {
+    padding: 6px 20.3px 6px 20.3px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#main button {
+    background-color: #fff;
+}
+#main button:first-child {
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid #E5E5E5;
+    background: #833AE0;
+    color: #FFFFFF;
+}
+#main button:last-child {
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+}
+
+#main button:nth-child(2) {
+    border-top: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 0px;
+    color: #C6C6C6;
+}
+#main button:nth-child(3) {
+    border-top: 1px solid #E5E5E5;
+    border-right: 0px;
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 0px;
+    color: #C6C6C6;
+}
+#main .right-section button:nth-child(2) {
+    background-color: #833AE0;
+    color: #fff;
+}
+#main .right-section button:first-child {
+    background-color: #fff;
+    color: #C6C6C6;
+}
+#main #section .amount {
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 11px 14px 5px 14px;
+}
+#section .amount input {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    border: none;
+}
+#section .amount input:focus {
+    outline: none;
+}
+
+#section .amount input::-webkit-outer-spin-button,
+#section .amount input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#section .amount .rate {
+    width: 250px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+}
